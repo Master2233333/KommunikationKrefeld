@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Krefeld</title>
+</head>
+<body>
+    <header>
+        <h1>Krefeld</h1>
+    </header>
+    
+    <section id="nickname-entry" class="section">
+        <div class="content">
+            <h2>Stelle einen Spitznamen</h2>
+            <form id="nickname-form">
+                <input type="text" id="nickname" placeholder="Dein Spitzname" required>
+                <button type="submit">Weiter</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="chat" class="section">
+        <div class="content">
+            <h2>Kommunikation</h2>
+            <div id="update-list" class="update-list"></div>
+            <div id="update-form" class="update-form">
+                <h3>Kommuniziere</h3>
+                <textarea id="update-input" rows="4" cols="50" placeholder="Schreiben Sie etwas...."></textarea>
+                <button id="update-button">Schicken</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
